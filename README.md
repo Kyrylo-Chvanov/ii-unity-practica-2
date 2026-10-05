@@ -7,3 +7,7 @@
 ## Ejercicio 6
 
 ![Ejercicio 6](media/ejercicio-6.gif)
+
+## Ejercicio 7
+
+![Ejercicio 7](media/ejercicio-7.png)
