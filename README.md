@@ -35,7 +35,7 @@ físicas, incluyendo la gravedad.
 Como ahora el plano es un objeto cinemático, no le afecta la gravedad. La esfera choca contra el cubo
 y por la masa que tiene la esfera el cubo se mueve un poco.
 
-![Situación 5](media/situacion_5.mp5.gif)
+![Situación 5](media/situacion_5.mp4.gif)
 
 ## Situación 6
 
@@ -72,7 +72,7 @@ OnTriggerEnter, OnTriggerExit y OnTriggerStay. Por eso la esfera pudo atravesar 
 Para la realización de este ejercicio he seguido el manual de [Unity](https://docs.unity3d.com/6000.6/Documentation/ScriptReference/Rigidbody.MovePosition.html).
 La cápsula es un objeto cinemático. Por lo tanto, se mantiene el control total sobre el personaje a través de su script.
 
-![Ejercicio 1](media/ejercicio-1.gif)
+![Ejercicio 1](media/exercise_1.mp4.gif)
 
 ## Ejercicio 2
 
@@ -80,14 +80,14 @@ Reutilicé el script del ejercicio anterior para el personaje.
 Para los cubos he creado una componente que detecta colisiones a través de OnCollisionEnter y
 cambia el color utilizando el Renderer.
 
-![Ejercicio 2](media/ejercicio-2.gif)
+![Ejercicio 2](media/exercise_2.mp4.gif)
 
 ## Ejercicio 3
 
 He definido materiales nuevos para este ejercicio para que se viera mejor el comportamiento.
 Las dos zonas funcionan con Collider y `IsTrigger = true`.
 
-![Ejercicio 3](media/ejercicio-3.gif)
+![Ejercicio 3](media/exercise_3.mp4.gif)
 
 ## Ejercicio 4
 
@@ -98,14 +98,14 @@ Primero he creado 4 capas nuevas: Player, Ground, Collectible y Enemy.
 Luego asigné a mis entidades las correspondientes capas y implementé la lógica deseada.
 Cuando el enemigo toca la "moneda", no ocurre nada. Sin embargo, cuando lo hace el jugador, se destruye.
 
-![Ejercicio 4](media/ejercicio-4.gif)
+![Ejercicio 4](media/exercise_4.mp4.gif)
 
 ## Ejercicio 5
 
 He definido 3 materiales físicos con propiedades diferentes y he creado un script común que lanza
 los objetos en al aire al presionar la tecla X.
 
-![Ejercicio 5](media/ejercicio-5.gif)
+![Ejercicio 5](media/exercise_5.mp4.gif)
 
 ## Ejercicio 6
 
@@ -113,4 +113,4 @@ Como para este ejercicio ningún objeto puede ser Rigidbody, tuve que calcular l
 Como todos los objetos están alineados, solo tuve que tener en cuenta que la posición de la esfera + el radio
 de la esfera sean > que la posición del cubo + la mitad de la longitud de una de sus caras.
 
-![Ejercicio 6](media/ejercicio-6.gif)
+![Ejercicio 6](media/exercise_6.mp4.gif)
