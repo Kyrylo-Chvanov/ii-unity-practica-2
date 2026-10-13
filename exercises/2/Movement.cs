@@ -2,16 +2,17 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float speed = 0.5f;
+    public float speed;
+    public Rigidbody rb;
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 moveDirection = new(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         moveDirection.Normalize();
-        transform.Translate(moveDirection * speed);
+        rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
     }
 }
